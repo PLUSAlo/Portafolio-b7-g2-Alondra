@@ -4,3 +4,63 @@
     justify-content: start;
     align-items: center;
 }
+
+.bg-personalizado{
+    background-color: #3C768F !important;
+}
+
+.text-color{
+    color: #c13d60 !important;
+}
+
+.text-color2{
+    color: #752642 !important;
+    text-decoration: none;
+}
+
+.btn-color{
+    background-color: #c13d60;
+    color: #FFF;
+}
+
+.btn-color:hover{
+    border-color: #c13d60;
+    background-color: #FFF;
+    color: #c13d60;
+}
+
+
+.btn-hover:hover{
+    background-color: #3C768F;
+
+}
+
+.proyecto {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#proyecto-1 {
+    background-image: url('/assets/img/pagina.jpg');
+}
+
+#proyecto-2 {
+    background-image: url('/assets/img/pagina2.jpg');
+}
+
+#proyecto-3 {
+    background-image: url('/assets/img/pagina3.jpg');
+}
+
+.text-shadow-1 {
+    text-shadow: 1px -1px 8px rgba(0, 0, 0, 1);
+}
+
+.bg-brand {
+    background-color: blueviolet;
+}
+
+.text-brand {
+    color: blueviolet;
+}
